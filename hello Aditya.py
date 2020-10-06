@@ -1,0 +1,17 @@
+name = input("What is your name?")
+print("Hello", name)
+age = int(input("How old are you?"))
+print( name, ",that means you will be" ,age + 10 ,"in 10 years")
+grade = int(input("What grade are you in?"))
+year = int(input("What year are you taking this survey?"))
+num = int(input("In which year were you born in?"))
+print("That means you will graduate in ", num + 18, "or", num + 19)
+hobby = input("Do you have any hobbies? Yes or No.")
+if ( hobby == "yes"):
+   input("What hobbies do you enjoy?") 
+print("nice")
+sport = input("What is your favorite sport?")
+print(sport, "is a good sport")
+sauce = input("What is your favorite sauce?")
+print("I enjoy ",sauce, "too.")
+

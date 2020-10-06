@@ -1,0 +1,7 @@
+print(5* "x")
+print("x")
+print("x")
+print(3* "x")
+print("x")
+print("x")
+print(5* "x")

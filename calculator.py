@@ -1,0 +1,13 @@
+a = int(input("Enter an integer greater than 100."))
+b = int(input("Enter an integer smaller than 10."))
+add = (a + b)
+print(a, "+", b, "=", add)
+minus = (a - b)
+print(a, "-", b, "=", minus)
+multiply = (a*b)
+print(a, "*", b, "=", multiply)
+divide = (a/b)
+print(a, "/", b, "=", divide)
+modulo = (a%b)
+print(a, "%", b, "=", modulo)
+        
