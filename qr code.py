@@ -1,4 +1,7 @@
 import qrcode
 
-image = qrcode.make("https://www.google.com/")
+input = input("Enter Website: ")
+
+image = qrcode.make(input)
 image.save("qr.png", "PNG")
+print("qr code made, check folder")
