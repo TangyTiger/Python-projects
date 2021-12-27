@@ -4,12 +4,15 @@ a = int(input("a: "))
 b = int(input("b: "))
 c = int(input("c: "))
 
+
+#vertex
+print("X of Vertex is \n" + str(-(b)/(2*a)))
+
 denominator = 2 * a
 determinant = b**2 - 4*a*c
 total_sqrt = math.sqrt(determinant)
 
-#vertex
-print("X of Vertex is \n" + str(-(b)/(2*a)))
+
 
 # x intercepts
 try: 
